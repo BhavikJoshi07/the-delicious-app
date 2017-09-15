@@ -32,7 +32,12 @@ const storeSchema = new mongoose.Schema({
 			required: 'You must supply an Address!'
 		}
 	},
-	photo: String
+	photo: String,
+	author: {
+		type: mongoose.Schema.ObjectId,
+		ref: 'User',
+		required: 'You must supply an Author'
+	}
 });
 
 storeSchema.pre('save', async function(next) {
