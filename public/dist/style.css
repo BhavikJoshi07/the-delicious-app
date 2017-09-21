@@ -700,6 +700,7 @@ label {
     margin-right: 1rem; } }
 
 .table {
+  text-align: center;
   width: 100%; }
   .table td {
     padding: 5px; }
@@ -911,8 +912,9 @@ label {
   outline: 0;
   position: relative; }
   .heart__button:after {
-    content: '\2665\FE0F';
-    font-size: 20px;
+    content: '\2665';
+    color: red;
+    font-size: 32px;
     position: absolute;
     opacity: 0;
     top: 0; }
@@ -989,7 +991,8 @@ label {
     font-size: 1.2rem;
     color: #999999; }
   .review__stars {
-    color: #FFC40E; }
+    color: #FFC40E;
+    font-size: 24px; }
   .review__body {
     padding: 2rem; }
   .review p {

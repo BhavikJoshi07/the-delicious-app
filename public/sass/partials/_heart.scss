@@ -5,8 +5,9 @@
     outline: 0;
     position: relative;
     &:after {
-      content: '♥️';
-      font-size: 20px;
+      content: '♥';
+      color: red;
+      font-size: 32px;
       position: absolute;
       opacity: 0;
       top: 0;
