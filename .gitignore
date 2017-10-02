@@ -7,10 +7,11 @@ Desktop.ini
 Thumbs.db
 
 # log files #
-.npm-debug.log
+*.log
+
 
 # node
-node_modules
+node_modules/
 
 *.env
 *.env.now
